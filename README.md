@@ -1,5 +1,7 @@
 # WeatherPredictionAlgorithm
 
+Most of my current technical skills are based around data warehousing & reporting. So I am not sure if I have the expertise to provide  a well thought out code for this, might I add, mind-boggling requirement. For what it’s worth I will  write down an algorithm below that I have in mind and add a simple implementation in Python. Hopefully it would suffice to get an idea about my thought process. So here goes:
+
 <b>Assumptions & Generalizations</b><br/> 
 First things first, weather prediction requires a lot of data. So we would need a lot of basic weather monitoring devices scattered every 100-200km. A device that measures the five pillars of weather – Minimum Temperature, Maximum Temperature, Humidity, Rainfall and mean Pressure. Since what happens in the oceans are of high importance as well, we need to cover a sizeable portion of it too. Alternatively, this may be possible using satellites.
 Also, weather – unless too extreme – does not change drastically. Almost all changes follow a smooth progression. Furthermore, weather more or less also has a cyclic nature to it. Hence historical data would be very helpful.
